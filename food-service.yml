@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/jb2404?useSSL=false&serverTimezone=UTC
     username: root
-    password: root
+    password: "{cipher}69405dab1e08d1c8865e78891a9f12bae73be55bbc0f2166536fde621b26ae7d"
     driver-class-name: com.mysql.cj.jdbc.Driver
     
   jpa:
@@ -19,8 +19,10 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   service-url:
-    defaultZone:http://localhost:8761/eureka/      
-  instance:    hostname: localhost
+    defaultZone:http://localhost:8761/eureka/
+      
+  instance:
+    hostname: localhost
 
 management:
   endpoints:
