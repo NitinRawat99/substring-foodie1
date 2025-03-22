@@ -43,5 +43,5 @@ info:
   app:
    name: "FOOD-SERVICE"
    description: "This is api gateway for common entry point"
-   version: "1.0 underDevelopment.GIT VERSION"
+   version: "{cipher}2de5ab68362fad6f519c775d404db9a744620b2d2632bbde3f8a74461c612928274c36d579ebd8f9a91b0c2a5119b53ba39e30812e6ba47bd9523743ab577175"
       
